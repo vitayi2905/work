@@ -1,0 +1,68 @@
+.main_areas{
+    display: grid;
+    grid-template-areas:
+    "a1 a1 a2 a2 a3"
+    "b1 b1 b1 b1 c1"
+    "b1 b1 b1 b1 c2"
+    "b2 b2 b2 b2 c2"
+    "b2 b2 b2 b2 c3"
+    "d1 d1 d1 e1 e1"
+    "d2 d3 d3 e1 e1"
+    "f1 f1 f1 f1 x1"
+    "f2 f2 f4 f4 x1"
+    "f3 f3 f4 f4 x1";
+}
+.a1{
+    grid-area: a1;
+}
+.a2{
+    grid-area: a2;
+}
+.a3{
+    grid-area: a3;
+}
+.b1{
+    grid-area: b1;
+}
+.b2{
+    grid-area: b2;
+}
+.c1{
+    grid-area: c1;
+}
+.c2{
+    grid-area: c2;
+}
+.c3{
+    grid-area: c3;
+}
+.d1{
+    grid-area: d1;
+}
+.d2{
+    grid-area: d2;
+}
+.d3{
+    grid-area: d3;
+}
+.e1{
+    grid-area: e1;
+}
+.f1{
+    grid-area: f1;
+}
+.f2{
+    grid-area: f2;
+}
+.f3{
+    grid-area: f3;
+}
+.f4{
+    grid-area: f4;
+}
+.x1{
+    grid-area: x1;
+}
+.main_areas>div{
+    outline: 2px solid black;
+}

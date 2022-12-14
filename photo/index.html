@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>images</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<div class="main">
+  <ul class="menu">
+    <li>
+      <a href="../index.html">Home</a>
+    </li>
+    <li>
+      <a href="#">Gallery</a>
+    </li>
+    <li>
+      <a href="">My work</a>
+      <ul class="my_work">
+        <li><a href="../inline-block.html">Inline-blocks</a></li>
+        <li><a href="../table-cell.html">Table-cell</a></li>
+        <li><a href="../flex.html">Flex</a></li>
+        <li>
+          <a href="">Float</a>
+          <ul class="float_ul">
+            <li>
+              <a href="../float.html">Before</a>
+            </li>
+            <li>
+              <a href="../float.html">After</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Grid</a>
+          <ul class="grid_ul">
+            <li>
+              <a href="../grid_areas.html">Areas</a>
+            </li>
+            <li>
+              <a href="../grid.html">Template</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h1>Пиво</h1>
+  <div class="container gallery_relative" id="first_img">
+    <img src="gallery/main.jfif" alt="разливное пиво">
+    <div class="gallery_absolute">
+      Разливное пиво
+    </div>
+    <a href="../index.html#light_beer"><br>Рекомедую почитать информацию о Светлых сортах пива</a>
+  </div>
+  <div class="container text" >
+     <div class="gallery_relative" id="light_beer">
+       <img src="gallery/light.jfif" alt="Светлое пиво">
+        <div class="gallery_absolute">
+      <h2>Светлое Пиво</h2>
+        </div>
+     </div>
+    <p>
+      <a href="../index.html#list"><br>Возможно вам интересен сорт Темного пива</a>
+    </p>
+
+  </div>
+  <div class="container text" id="list">
+    <div class="gallery_relative">
+    <div class="gallery_absolute">
+      <h2>Темное пиво</h2>
+    </div>
+      <a href="../index.html#craft">
+      <img src="gallery/black.jfif" alt="Темное пиво"></a>
+    </div>
+    <div id="craft">
+      <div class="gallery_relative">
+      <div class="gallery_absolute">
+        <h3>Крафтовое</h3>
+      </div>
+      <p>
+        <a href="../index.html#life"><img src="gallery/craft.jfif" alt="Крафтовое пиво"></a>
+      </p>
+      </div>
+    </div>
+    <div class="gallery_relative" id="life">
+      <div class="gallery_absolute">
+        <h3>Живое</h3>
+      </div>
+      <p>
+        <a href="../index.html"> <img src="gallery/life.jfif" alt="Живое пиво"></a>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="menu_left">
+  <div>
+    <a href="#first_img">Разливное пиво</a>
+  </div>
+  <div>
+    <a href="#light_beer">Светлое пиво</a>
+  </div>
+  <div>
+    <a href="#list">Темное</a>
+  </div>
+  <div>
+    <a href="#craft">Крафтовое</a>
+  </div>
+  <div>
+    <a href="#life">Живое</a>
+  </div>
+</div>
+</body>
+</html>

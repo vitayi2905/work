@@ -1,0 +1,80 @@
+.head_fl{
+    display:flex;
+    background: chartreuse;
+}
+.in_head_fl{
+    width: 400px;
+    font-size: 28px;
+    text-align: center;
+    outline: 2px solid black;
+    margin: 15px 0;
+}
+.logo{
+    display: flex;
+    margin: 20px 0;
+}
+.in_logo{
+    width: 800px;
+    outline: 2px solid black;
+
+}
+.logo_in{
+    width: 400px;
+    outline: 2px solid green;
+}
+.in_logo1{
+    outline: 1px solid blue;
+    font-size: 18px;
+    padding: 10px;
+}
+.flex_cont{
+    display: flex;
+}
+.flex_cont_lft{
+    width: 600px;
+    padding: 10px 0;
+    outline: 2px solid darkmagenta;
+}
+.flex_cont_rgt{
+    width: 600px;
+    outline: 2px solid darkmagenta;
+    background: red;
+}
+.flex_cont_in{
+    display: flex;
+    outline: 2px solid darkgrey;
+    background: blueviolet;
+}
+.flex_cont_in>div{
+    outline: 2px solid black;
+}
+.flex_bot{
+    display: flex;
+    padding: 20px 0;
+    background: cornflowerblue;
+    outline: 2px solid black;
+}
+.flex_bot_lft{
+    width: 800px;
+    outline: 2px solid black;
+}
+.flex_bot_rgt{
+    width: 400px;
+    background: cyan;
+    outline: 2px solid black;
+}
+.flex_bot_in{
+    display: flex;
+    background: red;
+    outline: 2px solid black;
+}
+.flex_bot_on{
+    width: 400px;
+    outline: 2px solid yellowgreen;
+}
+.flex_bot_on>p{
+    outline: 2px solid black;
+}
+
+
+

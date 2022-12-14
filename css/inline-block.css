@@ -1,0 +1,53 @@
+.head_in{
+    font-size: 0;
+    display: inline-block;
+}
+.body_in{
+    font-size: 0;
+    display: inline-block;
+}
+
+.in_body_in,.in_in_body_in {
+    font-size: 17px;
+    vertical-align: top;
+}
+.tittle_in{
+    display: inline-block;
+    font-size: 19px;
+    vertical-align: top;
+}
+.main_tittle_in{
+    display: inline-block;
+    background: green;
+    font-size: 0;
+}
+.blocks_in{
+    width: 800px;
+    display: inline-block;
+    font-size: 17px;
+    vertical-align: top;
+}
+.blocks_two_in{
+    width: 400px;
+    display: inline-block;
+    outline:2px solid yellow;
+    font-size: 17px;
+
+}
+.in_block_in{
+    width: 400px;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: top;
+}
+.in_block_in>p{
+    outline: 2px solid yellow;
+}
+.main_block{
+    display: inline-block;
+    font-size: 0;
+}
+.blocks_inl{
+    font-size: 0;
+    display: inline-block;
+}

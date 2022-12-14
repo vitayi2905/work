@@ -1,0 +1,18 @@
+.menu_left{
+    position: fixed;
+    top: 200px;
+    background: greenyellow;
+}
+.menu_left>div{
+    outline: 2px solid black;
+    padding: 20px;
+    font-size: 24px;}
+.gallery_relative{
+    position: relative;
+}
+.gallery_absolute{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    color: blue;
+}

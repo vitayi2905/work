@@ -1,0 +1,88 @@
+.main{
+    width: 1200px;
+    background: gold;
+    margin: 0 auto;
+}
+.head_f{
+    float: left;
+    width: 400px;
+    outline: 2px solid black;
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px auto;
+    font-size: 24px;
+    background: brown;
+}
+.wrap_left{
+    float: left;
+    width: 800px;
+    margin: 10px 0;
+    outline: 2px solid red;
+    padding: 10px 0;
+    background: chartreuse;
+}
+.wrap_left>div{
+    outline: 2px solid black;
+    margin: 10px 0;
+
+}
+.wrap_right{
+    float: right;
+    width: 400px;
+    margin: 5px 0;
+    outline: 2px solid red ;
+    background: darkmagenta;
+}
+.wrap_right>div{
+    outline: 2px solid black
+}
+.blocks_m{
+    float: left;
+    width: 600px;
+    margin: 15px 0;
+    background: chartreuse;
+    outline: 2px solid black;
+}
+.blocks_m_right{
+    float: right;
+}
+.blocks_b{
+    float: left;
+    width: 300px;
+    background: pink;
+    outline: 2px solid black;
+}
+.bottom{
+    float: left;
+    width: 800px;
+    margin: 10px 0;
+    outline: 2px solid black;
+}
+.bottom_right{
+    float: right;
+    width: 400px;
+    margin: 10px 0;
+    outline: 2px solid black;
+    background: lightcoral;
+}
+.bottom_r_b{
+    float: right;
+    width: 400px;
+    outline: 2px solid black;
+    margin: 10px 0;
+}
+.bottom_left{
+    float: left;
+    width: 400px;
+    margin: 10px 0;
+    outline: 2px solid black;
+    background: cyan;
+}
+.bottom_left>div{
+    outline: 2px solid black;
+}
+.clearfix:after{
+    content:"";
+    clear: both;
+    display: block;
+}
